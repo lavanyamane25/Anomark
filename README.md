@@ -1,10 +1,10 @@
-\# Anomark
+# Anomark
 
-\### ML-Based Data Quality Monitoring
+### ML-Based Data Quality Monitoring
 
 
 
-\## Problem
+## Problem
 
 Data pipelines can produce incomplete, duplicated, or
 
@@ -12,7 +12,7 @@ unexpectedly changing data without detection.
 
 
 
-\## Objective
+## Objective
 
 Build a repeatable pipeline using NYC 311 public-service
 
@@ -22,23 +22,23 @@ incidents in PostgreSQL, and display evidence-backed alerts.
 
 
 
-\## Tech Stack
+## Tech Stack
 
-\- Python
+- Python
 
-\- Pandas
+- Pandas
 
-\- PostgreSQL
+- PostgreSQL
 
-\- SQLAlchemy
+- SQLAlchemy
 
-\- Scikit-learn
+- Scikit-learn
 
-\- Streamlit
+- Streamlit
 
 
 
-\## Data Source
+## Data Source
 
 NYC Open Data — 311 Service Requests
 
@@ -46,27 +46,27 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-
 
 
 
-\## Current Progress
+## Current Progress
 
-\- Python environment configured
+- Python environment configured
 
-\- PostgreSQL connection tested
+- PostgreSQL connection tested
 
-\- NYC 311 API connection tested
+- NYC 311 API connection tested
 
 
 
-\## Planned Features
+## Planned Features
 
-\- Data cleaning and validation
+- Data cleaning and validation
 
-\- Daily data-quality metrics
+- Daily data-quality metrics
 
-\- Rule-based and statistical anomaly detection
+- Rule-based and statistical anomaly detection
 
-\- Isolation Forest
+- Isolation Forest
 
-\- Incident storage and investigation dashboard
+- Incident storage and investigation dashboard
 
-\- Evaluation using controlled data-quality failures
+- Evaluation using controlled data-quality failures
 
